@@ -1,0 +1,41 @@
+*{
+    font-family: "Ubuntu ,sans-serif"
+}
+
+
+.singleShow{
+    display: flex;
+    margin: 1px 0;
+}
+
+.singleShow>img{
+    margin-right: 2rem;
+}
+
+.info{
+    text-align: left;
+}
+
+.info p{
+    margin: 1rem 0;
+}
+
+.genres,.lang{
+    display: inline-block;
+    border-radius: 15px;
+    font-size: large;
+    margin: 0.5rem 1rem 0.5rem 0;
+    padding: 10px 17px;
+    background-color:#487eb0;
+    color: white;
+}
+
+.desc{
+    max-width: 80%;
+    margin: auto;
+    padding: 40px 0;
+    font-size: 18px;
+    line-height: 1.4em;
+    font-family: "Ubuntu" ,sans-serif;
+    text-align: justify;
+}
